@@ -4,9 +4,7 @@
 
     angular
         .module('app.core')
-        .provider('msApi', msApiProvider)
-  
-  
+     
   
   .factory('dataFactory', function($http) {
   var myService = {
