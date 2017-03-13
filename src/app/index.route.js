@@ -18,7 +18,8 @@
         
         $locationProvider.html5Mode(true);
 
-        $urlRouterProvider.otherwise('/questionsrepo');
+        $urlRouterProvider.otherwise('/login');
+        //$urlRouterProvider.otherwise('/questionsrepo');
         //dashboard-project
 
         /**
