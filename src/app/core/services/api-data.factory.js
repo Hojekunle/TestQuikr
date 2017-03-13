@@ -1,4 +1,4 @@
-app.factory('dataFactory', function($http) {
+/**app.factory('dataFactory', function($http) {
   var myService = {
     httpRequest: function(url,method,params,dataPost,upload) {
       var passParameters = {};
@@ -44,4 +44,4 @@ app.factory('dataFactory', function($http) {
   };
   return myService;
 })
-
+**/
