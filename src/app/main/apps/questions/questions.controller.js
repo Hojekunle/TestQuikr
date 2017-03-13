@@ -9,7 +9,7 @@
         
 
     /** @ngInject */
-    function questionsController($scope, $mdSidenav, questions, msUtils, $mdDialog, $document, msApi, dataFactory, growl)
+    function questionsController($scope, $mdSidenav, questions, msUtils, $mdDialog, $document, msApi, growl)
     {
 
         var vm = this;
