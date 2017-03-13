@@ -7,7 +7,7 @@
         .controller('questionsAdminController', questionsAdminController);
 
     /** @ngInject */
-    function questionsAdminController($scope, $mdSidenav, questions, msUtils, $mdDialog, $document, msApi, dataFactory, growl)
+    function questionsAdminController($scope, $mdSidenav, questions, msUtils, $mdDialog, $document, msApi, growl)
     {
 
         var vm = this;
