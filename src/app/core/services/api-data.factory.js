@@ -1,4 +1,14 @@
-/**app.factory('dataFactory', function($http) {
+(function ()
+{
+    'use strict';
+
+    angular
+        .module('app.core')
+        .provider('msApi', msApiProvider)
+  
+  
+  
+  .factory('dataFactory', function($http) {
   var myService = {
     httpRequest: function(url,method,params,dataPost,upload) {
       var passParameters = {};
@@ -44,4 +54,8 @@
   };
   return myService;
 })
-**/
+
+})();
+
+
+
