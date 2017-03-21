@@ -39,7 +39,7 @@
     /** @ngInject */
     function config($stateProvider, $translatePartialLoaderProvider, msApiProvider, msNavigationServiceProvider)
     {
-        msApiProvider.setBaseUrl('http://localhost:8000/api/v1/');
+        msApiProvider.setBaseUrl('https://localhost:8000/api/v1/');
         $stateProvider.state('app.pages_auth_login-v2', {
             url      : '/login',
             data: {
