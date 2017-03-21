@@ -1,6 +1,9 @@
 {
     "LOGIN_V2": {
+        "INTRO_TITLE": "Welcome to TradeSync!",
+        "INTRO_DESCRIPTION": "Track and have absolte visibility of your salesmen and thier performance at real time regardless of location or region.",
         "TITLE": "Log in to your account",
+        "DESCRIPTION": "",
         "EMAIL": "Email",
         "PASSWORD": "Password",
         "REMEMBER_ME": "Remember Me",
@@ -11,11 +14,12 @@
         "WITH_FACEBOOK": "Log in with Facebook",
         "DONT_HAVE_ACCOUNT": "Don't have an account?",
         "CREATE_ACCOUNT": "Create an account",
-        "INVALID_CREDENTIALS": "Invalid Email or Password !",
+        "INVALID_CREDENTIALS": "Username or Password is Invalid !",
         "ERRORS": {
             "EMAIL_REQUIRED": "Email field is required",
             "EMAIL_MUST_VALID": "Email must be a valid e-mail address",
             "PASSWORD_REQUIRED": "Password field is required"
+           
         }
     }
 }
