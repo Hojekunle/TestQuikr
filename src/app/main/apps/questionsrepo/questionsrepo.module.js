@@ -15,7 +15,7 @@
     function config($stateProvider, $translatePartialLoaderProvider, msApiProvider, msNavigationServiceProvider, $mdIconProvider)
     {
         $mdIconProvider.iconSet("avatars", 'assets/angular-material-assets/icons/avatar-icons.svg',128);
-        msApiProvider.setBaseUrl('https://localhost:8000/api/v1/');
+        msApiProvider.setBaseUrl('http://localhost:8000/api/v1/');
         $stateProvider.state('app.questionsrepo', {
             url    : '/questionsrepo',
             views  : {
