@@ -14,7 +14,7 @@
     /** @ngInject */
     function config($stateProvider, $translatePartialLoaderProvider, msApiProvider, msNavigationServiceProvider)
     {
-        msApiProvider.setBaseUrl('https://localhost:8000/api/v1/');
+        msApiProvider.setBaseUrl('http://localhost:8000/api/v1/');
         $stateProvider.state('app.questionsadmin', {
             url    : '/questions_portal',
             views  : {
