@@ -74,7 +74,7 @@
                     })
                 })
                 .catch(function(response) {
-                    console.log('hi login');
+                    console.log('Check the host(name) you are connecting to from .env');
                     vm.loginError = true;
                 });
              }
