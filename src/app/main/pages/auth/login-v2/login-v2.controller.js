@@ -32,6 +32,8 @@
         var vm=this;
      
         vm.apiUrl=msApi.getBaseUrl() ;
+         console.log('checking Auth url...');
+                console.log(vm.apiUrl);
         vm.user="";
         vm.auth = {};
 
